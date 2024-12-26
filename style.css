@@ -1,0 +1,93 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+  background-color: black;
+  
+  display: flex;
+  flex-direction: column;
+  row-gap: 1em;
+  margin-top: 5%;
+  align-items: center;
+}
+
+.countdown {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 1em;
+  background-color: #242424;
+  width: 100%;
+  max-width: 400px;
+  color: #121212;
+  padding: 1em;
+  border-radius: 10px;
+  color: white;
+}
+
+.countdown-content {
+  display: flex;
+  column-gap: .5em;
+  font-size: 2em;
+  background-color: #121212;
+  border-radius: 50%;
+  padding: 3em .5em;
+}
+
+p, span {
+  font-size: 1.3em;
+}
+
+button {
+  background-color: #121212;
+  border: none;
+  color: white;
+  padding: 14px 30px;
+  font-size: 1.1em;
+  border-radius: 10px;
+  transition: all ease-in-out 0.2s;
+}
+
+button:hover {
+  background-color: #090909;
+  cursor: pointer;
+}
+
+.countdown-buttons {
+display: flex;
+column-gap: .4em;
+}
+
+.hideElement {
+  display: none;
+}
+
+.showElement {
+  display: block;
+}
+
+.listResults {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 1em;
+  background-color: #121212;
+  width: 100%;
+  max-width: 400px;
+  color: #121212;
+  border-radius: 10px;
+  color: white;
+  list-style: none;
+}
+
+.listResults li {
+  background-color: #242424;
+  width: 100%;
+  padding: 1em;
+  border-radius: 10px;
+  font-size: 1.1em;
+}
