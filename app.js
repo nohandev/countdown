@@ -71,7 +71,7 @@ const resetCount = () => {
   results.forEach(el => {
     el.remove()
   });
-  count = 0
+  count = 1
 }
 
 const markCount = () => {
